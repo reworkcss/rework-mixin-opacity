@@ -1,0 +1,26 @@
+{
+  "name": "rework-mixin-opacity",
+  "description": "A Rework opacity mixin that inserts IE 8's opacity filter",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": "reworkcss/rework-mixin-opacity",
+  "keywords": [
+    "rework",
+    "style",
+    "stylesheet",
+    "css",
+    "preprocess",
+    "preprocessor",
+    "opacity",
+    "mixin"
+  ],
+  "main": "opacity.js",
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "mocha": "~1.16.2",
+    "rework": "~0.20.2"
+  },
+  "scripts": {
+    "test": "mocha --no-colors --reporter spec"
+  }
+}
