@@ -1,0 +1,4 @@
+.TestOpacityMixin {
+  opacity: 0.5 !important;
+  -ms-filter: "alpha(opacity=50)" !important;
+}
