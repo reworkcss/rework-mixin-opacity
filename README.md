@@ -19,10 +19,11 @@ As a Rework mixin:
 
 ```js
 var rework = require('rework');
+var mixin = require('rework-plugin-mixin');
 var opacity = require('rework-mixin-opacity');
 
-var css = rework(cssinput)
-  .use(rework.mixin({
+var css = rework(source)
+  .use(mixin({
     opacity: opacity
   }))
   .toString();
@@ -50,5 +51,5 @@ div {
 From the repo root:
 
 ```
-make test
+npm test
 ```

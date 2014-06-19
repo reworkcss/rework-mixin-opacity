@@ -17,7 +17,8 @@
   "main": "opacity.js",
   "devDependencies": {
     "mocha": "~1.16.2",
-    "rework": "~0.20.2"
+    "rework": "^1.0.0",
+    "rework-plugin-mixin": "^0.1.0"
   },
   "scripts": {
     "test": "mocha --no-colors --reporter spec"
